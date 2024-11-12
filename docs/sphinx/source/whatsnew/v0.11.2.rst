@@ -10,6 +10,8 @@ Deprecations
 
 Enhancements
 ~~~~~~~~~~~~
+* ``pvlib.ivtools.sdm`` is now a subpackage. (:issue:`2252`, :pull:`2256`)
+
 
 Bug Fixes
 ~~~~~~~~~
