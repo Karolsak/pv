@@ -12,6 +12,8 @@ Enhancements
 ~~~~~~~~~~~~
 * ``pvlib.ivtools.sdm`` is now a subpackage. (:issue:`2252`, :pull:`2256`)
 
+* :py:func:`~pvlib.ivtools.sdm.fit_desoto` now allows input of initial
+  parameter guesses. (:issue:`1014`, :pull:`2291`)
 
 Bug Fixes
 ~~~~~~~~~
@@ -31,6 +33,8 @@ Documentation
   page. (:issue:`2202`, :pull:`2226`)
 * Updated :py:func:`~pvlib.irradiance.reindl` to include definitions of terms
   and a new "notes" section (:issue:`2183`, :pull:`2193`)
+* Clarified the error message in :py:func:`~pvlib.clearsky.detect_clearsky` when
+  windows contain fewer than three data points (:issue:`2005`, :pull:`2281`)
 * Added a new :ref:`nomenclature` page, in place of the Variables and Symbols
   page, using the sphinx glossary directive. (:issue:`1421`, :pull:`2234`)
 * Explained how to write docstrings for new functions in :ref:`example-docstring`
